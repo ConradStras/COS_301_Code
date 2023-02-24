@@ -17,11 +17,17 @@ def randomLoop(num):
         total += i
     return total
 
+def addedFunction(num1):
+    num2 = randomLoop(num1)
+    return summer(num1, num2)
+
+
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Conrad')
     summer(20, 21)
     print(randomLoop(8))
+    addedFunction(8)
 
 
 
