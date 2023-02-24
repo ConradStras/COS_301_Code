@@ -21,6 +21,10 @@ def addedFunction(num1):
     num2 = randomLoop(num1)
     return summer(num1, num2)
 
+def anotherFunction(num1):
+    num1 = randomLoop(num1)
+    num2 = randomLoop(num1)
+    return summer(num1, num2)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -28,6 +32,7 @@ if __name__ == '__main__':
     summer(20, 21)
     print(randomLoop(8))
     addedFunction(8)
+    anotherFunction(8)
 
 
 
