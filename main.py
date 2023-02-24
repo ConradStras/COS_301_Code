@@ -8,9 +8,13 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
 
+def summer(num1, num2):
+    print(num1 + num2)
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('Conrad')
+    summer(20, 21)
+
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
